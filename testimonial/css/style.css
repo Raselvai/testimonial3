@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #333333;
+}
+
+.testimonial_wrapper {
+	padding: 80px 0;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial_wrapper .testimonial_item {
+	width: 850px !important;
+	flex-shrink: 0;
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding: 30px 30px 60px 30px;
+	margin: 0 auto;
+}
+
+.testimonial_wrapper .testimonial_item img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin: 0 auto 20px auto;
+}
+
+.testimonial_wrapper .testimonial_item h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 30px;
+}
+
+.testimonial_wrapper .testimonial_item p {
+	color: #ffffff;
+}
+
+.owl-nav {
+    position: absolute;
+    bottom: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
